@@ -60,6 +60,21 @@ export default function App() {
         <Skeleton className="h-6"/>
         <Skeleton className="w-96 h-6"/>
       </div>
+      <div className="flex gap-1">
+        <Badge variant="secondary">5</Badge>
+        <Badge variant="primary">2 de 5</Badge>
+        <Badge loading>5</Badge>
+      </div>
+      <div className="flex gap-1">
+        <ButtonIcon icon={TrashIcon}/>
+        <ButtonIcon icon={TrashIcon} variant="secondary"/>
+        <ButtonIcon icon={TrashIcon} variant="tertiary"/>
+        <ButtonIcon icon={TrashIcon} loading/>
+      </div>
+      <div>
+        <InputCheckbox />
+        <InputCheckbox loading/>
+      </div>
     </div>
     </Container>
  )

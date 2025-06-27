@@ -3,11 +3,11 @@ import React from "react";
 
 
 export const skeletonVariants = cva(`
-    animate-pulse bg-gray-200
+    animate-pulse bg-gray-200 pointer-events-none
 `,{
     variants: {
         rounded: {
-            sm: "ropunded-sm",
+            sm: "rounded-sm",
             lg: "rounded-lg",
             full: "rounded-full"
         }
